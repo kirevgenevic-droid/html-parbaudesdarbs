@@ -1,4 +1,12 @@
-body {
+/* 
+colors
+#553A41 brown
+#3A6EA5 blue
+#E6E8E6 grey
+#BB7E8C rose
+#191919 black
+*/
+body, html {
     margin: 0;
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
@@ -12,11 +20,14 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #553a41;
+    background-color: #191919;
     color: #e6e8e6;
     padding-left: 40px;
     padding-right: 40px;
-    border-bottom: solid 1px #191919;
+    border-bottom: solid 1px;
+}
+header{
+    margin: 20px 20px 20px 20px;
 }
 
 div.logo {
@@ -63,7 +74,7 @@ div.logo a:hover {
     border: solid 1px #191919;
     
 }
-.hero-section h1 {
+.hero-section h2 {
     font-size: 40px;
     margin-top: 40px;
     margin-bottom: 0px;
@@ -83,10 +94,78 @@ div.logo a:hover {
     transition: 0.7s;
 }
 .hero-section button:focus {
-    outline: solid 3px  #e6e8e6;
+    outline: solid 3px #ffff;           
     transition: 0.7s;
 }
 main{
     margin-right: 20px;
     margin-left: 20px;
+}
+.Discounted, .new-arrivals {
+    border: solid 1px;
+    margin-top: 20px;
+    background-color: #BB7E8C;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+
+}
+.Discounted, h2{
+    border-bottom: solid 1px;
+    
+}
+.new-arrivals, h2{
+    border-bottom: solid 1px;
+}
+.product-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: solid 1px;
+    margin-top: 20px;
+    background-color: #d7c0d5 ;
+    padding: 20px 0 20px 0;
+    width: 400px;
+    height: 300px;
+    transition: transform 0.3s ease;
+}
+.product-card:hover {
+    transform: scale(1.05);
+}
+.product-card b{
+    margin-left: 10px;
+    font-size: 25px;
+    text-decoration: none;
+}
+.product-grid{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.old-price{
+    margin: 0;
+    font-size: 20px;
+    text-decoration: line-through;
+}
+.info1{
+    border:solid 1px;
+    margin-top: 20px;   
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: #BB7E8C;
+    font-size: 24px;
+    font-weight: 500;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #191919;
+    color: #e6e8e6;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin: 20px 20px 20px 20px;
+    font-size: 20px;
+    font-weight: 500;
 }
