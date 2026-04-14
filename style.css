@@ -5,6 +5,7 @@ colors
 #E6E8E6 grey
 #BB7E8C rose
 #191919 black
+#d7c0d5 purple
 */
 body, html {
     margin: 0;
@@ -94,7 +95,7 @@ div.logo a:hover {
     transition: 0.7s;
 }
 .hero-section button:focus {
-    outline: solid 3px #ffff;           
+    outline: solid 3px #3A6EA5;           
     transition: 0.7s;
 }
 main{
