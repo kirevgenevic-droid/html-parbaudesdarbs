@@ -4,31 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="store.css">
-    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+
+    <title>BeReady - Shop</title>
 </head>
 <body>
     <header>
         <nav>
             <div class="logo">
-                <a href="#index.html"><h1>BeReady.</h1></a>
+                <a href="index.html"><h1>BeReady.</h1></a>
             </div>
             <div class="nav">
                 <ul>
-                    <li><a href="#index.html">Home</a></li>
-                    <li><a href="#store.html">Shop</a></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="store.html">Shop</a></li>
                 </ul>
             </div>
         </nav>
     </header>
     <main>
         <section class="searching">
-            <div class="search-bar">
-                <input type="text" placeholder="Search">
-            </div>
-            <div class="filter-button">
-                <button>Filter <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#1f1f1f"><path d="M480-360 280-560h400L480-360Z"/></svg></button>
-                
-            </div>
+            <input class="search-input" type="text" placeholder="Search...">
+            <select class="filter-select" >
+                <option>Filter</option>
+                <option >Price: Low to High</option>
+                <option >Price: High to Low</option>
+            </select>
         </section>
         <section class="product-grid">
             <div class="product-card">
