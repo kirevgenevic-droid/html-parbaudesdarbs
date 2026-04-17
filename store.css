@@ -54,7 +54,7 @@ div.logo a:hover {
     background-color: #96727c;
     transition: 0.7s;
 }
-.old-price{
+.price{
     margin: 0;
     font-size: 20px;
     text-decoration: line-through;

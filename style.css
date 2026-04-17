@@ -144,7 +144,7 @@ main{
     flex-direction: row;
     justify-content: space-evenly;
 }
-.old-price{
+.price{
     margin: 0;
     font-size: 20px;
     text-decoration: line-through;
